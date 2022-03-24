@@ -39,6 +39,7 @@ Inheritance supports the concept of ‘Reusability’ i.e when we want to create
 we can derive our new class from the existing class instead of building from scratch and adding to redundancy. A sub-class can inherit from a parent class via the keyword - ‘extends’.
 b. With 'Inheritance' we have a 'is a' relation between base class and sub-class. For example if Vehicle is a base class and Car is a class that inherits Vehicle, Car 'is a' Vehicle.
 c. Example : class MountainBike extends Bicycle {  \\ add code  }
+d. Example from CPX packages : https://tinyurl.com/5s5e37a6 and https://tinyurl.com/4wp8evv8
 
 4.2 Composition:
 With composition we have a ‘has a ‘ relationship between the classes. When choosing between inheritance and composition, first choose composition and then inheritance.
@@ -54,3 +55,5 @@ There are 2 types of polymorphism in java - runtime polymorphism and compile-tim
 4.5 Abstraction:
 a. Data abstraction is an OOPS concept that shows only essential attributes and hides unnecessary details from the user. Abstraction is a process of hiding the implementation details and showing only functionality to the user.
 b. In Java, abstraction is achieved by interfaces and abstract classes. We can achieve 100% abstraction using interfaces.
+c. Example from CPX Packages w.r.t abstract classes - https://tinyurl.com/24fedvnt and https://tinyurl.com/y9ytwsb2
+d. Example from CPX Packages w.r.t Interfaces - https://tinyurl.com/bdhkhbk7 and https://tinyurl.com/yu5esn6s
