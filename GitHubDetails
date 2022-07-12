@@ -27,13 +27,15 @@ So followed below to set-up one time:
 
 And then did a push and it worked!! 
 ————————————————
+> Remotes represent repositories that you might have read and/or write access to.
 
-After first time, every other time you want to push, do the below :
+> Note that when trying to push to a seperate created repository, you cannot use remote 'origin' as that may be already taken. 
+You can see all remotes by command :
+> $ git remote -v
+> To remove a remote : $git remote remove <remote name>
+> Rename the existing remote : $git remote rename <old-name> <new-name>
 
-git config --global user.name "Supriti SDE"
-$ git config --global user.email "supriti.sm@gmail.com"
-$ cd Desktop/GITHubProjects/
-$ git add .
-$ git status
-$ git commit -m "My first git commit with Java"
-$ git push --force
+So when doing line #18, if we already have 'origin' then remove it else create a new remote with new name.
+Example - git remote add test git@github.com:supritism/XYZ.git
+
+Apart from that rest of the steps as above is valid.
